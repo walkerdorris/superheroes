@@ -48,33 +48,3 @@ requirejs(
 	});
 
 
-//     var allBooks;
-
-//   books.getBooks()
-//   .then(function(books) {
-//     console.log("API call successful and responded with", books);
-//     allBooks = books;
-//     return booktypes.getBooksTypes()
-//   })
-//   .then(function(types) {
-//     console.log("API call successful and responded with", types);
-
-//     types = Object.keys ( types ).map(key => types[ key ])
-//     allBooks = Object.keys ( allBooks ).map(key => allBooks[ key ])
-
-//     var booksArray = allBooks.map(book => {
-//       book.type = _.find(types, { id:book.booktype }).label;
-//       return book;
-//     });
-
-//     require(['hbs!../templates/books'], function(bookTpl) {
-//       $("#bookList").html(bookTpl({ books:booksArray }));
-//       console.log(booksArray);
-//     })
-//   })
-//   .fail(function(error) {
-//     console.log("API call failed with error", error);
-//   });
-
-
-// });
