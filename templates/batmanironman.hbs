@@ -1,0 +1,10 @@
+{{#each superheroes}}
+	<h1>{{superhero}}</h1>
+	<h3>{{real-name}}</h3>
+	<h5>{{class}}</h5>
+	<h6>{{creators}}</h6>
+	{{#each first_appearance}}
+	<h3>{{comic}}</h3>
+	<h3>{{year}}</h3>
+	{{/each}}
+{{/each}}

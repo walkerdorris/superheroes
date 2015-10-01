@@ -1,0 +1,10 @@
+{
+	"marvel": {
+		"id": 0,
+		"type": "Marvel Comics"
+	},
+	"dc": {
+		"id": 1,
+		"type": "DC Comics"
+	}
+}

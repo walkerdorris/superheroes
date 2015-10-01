@@ -1,0 +1,65 @@
+{  
+   "superheroes":[  
+      {  
+         "Iron Man":[  
+            {  
+               "class": 0,
+               "superhero":"Iron Man",
+               "real-name":"Tony Stark",
+               "creators":[  
+                  "Stan Lee",
+                  "Larry Lieber",
+                  "Don Heck",
+                  "Jack Kirby"
+               ],
+               "first_appearance":[  
+                  {  
+                     "comic":"Tales of Suspense #39",
+                     "year":"1963"
+                  }
+               ],
+               "abilities":[  
+                  "Genius-level intellect",
+                  "Highly proficient scientist, engineer, and businessperson",
+                  {  
+                     "Via powered armored suit":[  
+                        "Superhuman strength and durability",
+                        "A cyberpathic link with a prior version of his powered armored suit",
+                        "Supersonic flight at Mach 3",
+                        "Energy repulsors",
+                        "Missiles",
+                        "Regenerative life support (sometimes powered by solar power)"
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "Batman":[  
+            {  
+               "class": 1,
+               "superhero":"Batman",
+               "real-name":"Bruce Wayne",
+               "creators":[  
+                  "Bill Finger",
+                  "Bob Kane"
+               ],
+               "first_appearance":[  
+                  {  
+                     "comic":"Detective Comics #27",
+                     "year":"1939"
+                  }
+               ],
+               "abilities":[  
+                  "Genius-level intellect",
+                  "Peak human physical and mental condition",
+                  "Master martial artist and hand-to-hand combatant",
+                  "Master detective",
+                  "Utilizes high-tech equipment and weapons"
+               ]
+            }
+         ]
+      }
+   ]
+}
